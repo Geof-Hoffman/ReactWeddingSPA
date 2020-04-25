@@ -20,7 +20,8 @@ class App extends Component {
             <div className="App">
                 <Navbar dark color="primary">
                     <div className="container">
-                        <NavbarBrand href="/">Forever: Jess&Geoff-Comming soon</NavbarBrand>
+                        <NavbarBrand href="/">Forever: Jess&Geoff- Comming soon! Check back May 4th! </NavbarBrand>
+                        <NavbarBrand href="/">The wedding will held at Briar Patch B&B, in Middleburg, VA on October 18, 2020  </NavbarBrand>
                     </div>
                             
                    
