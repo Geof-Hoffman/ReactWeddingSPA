@@ -25,10 +25,10 @@ export const CAMPSITES = [
     },
     {
         id: 3,
-        name:"Rehersal",
+        name:"Rehearsal",
         image: "/assets/images/rehersal.jpg",
         elevation: "Purcelleville, VA",
         featured: false,
-        description: "In place of a rehersal dinner, we plan to host a rehersal brunch on Saturday, at magnolia's in Purcelville, VA."
+        description: "In place of a rehersal dinner, we plan to host a rehearsal brunch on Saturday, at magnolia's in Purcelville, VA."
     }
 ];
