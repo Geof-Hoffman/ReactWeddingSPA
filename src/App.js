@@ -20,10 +20,9 @@ class App extends Component {
             <div className="App">
                 <Navbar dark color="primary">
                     <div className="container">
-                        <NavbarBrand href="/">NuCamp</NavbarBrand>
+                        <NavbarBrand href="/">Forever: Jess&Geoff-Comming soon</NavbarBrand>
                     </div>
-                    
-                   
+                            
                    
                 </Navbar>
                 <Directory campsites={this.state.campsites} />
