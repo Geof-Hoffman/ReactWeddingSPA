@@ -8,13 +8,12 @@ class App extends Component {
         return (
             <div className="App">
                 <Navbar dark color="primary">
-                </div>    
-                <div className="container">
-                <NavbarBrand href="/">NuCamp</NavbarBrand>
-                </div>
-                <div>
+                    <div className="container">
+                        <NavbarBrand href="/">NuCamp</NavbarBrand>
+                    </div>
+                    <div>
                     <Directory />
-                </div>
+                    </div>
                 </Navbar>
             </div>
         );
