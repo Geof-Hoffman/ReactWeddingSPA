@@ -1,34 +1,34 @@
 export const CAMPSITES = [
     {
         id: 0,
-        name: "React Lake Campground",
-        image: "/assets/images/react-lake.jpg",
-        elevation: 1233,
-        featured: false,
-        description: "Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers."
+        name: "Briar Patch Bed and Breakfast",
+        image: "briarPatch.jpg",
+        elevation: "Middleburg, VA",
+        featured: true,
+        description: "The ceremony and reception will be held at Briar patch Bed and Breakfast in Middleburg, VA on October 18, 2020."
     },
     {
         id: 1,
-        name:"Chrome River Campground ",
-        image: "/assets/images/chrome-river.jpg",
-        elevation: 877,
+        name:"Clydes- Willow Creek ",
+        image: "Clydes.jpg",
+        elevation: "Broadlands, VA",
         featured: false,
-        description: "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River."
+        description: "Following the rehersal on Thursday, we will be heading to Clydes to sing karaoke. All are welcome. It is where we met, 1253 days later."
     },
     {
         id: 2,
-        name:"Breadcrumb Trail Campground",
-        image: "/assets/images/breadcrumb-trail.jpg",
-        elevation: 2901,
+        name:"Welcome happy Hour",
+        image: "HH.jpg",
+        elevation: "TBD",
         featured: false,
-        description: "Let NuCamp be your guide to this off-the-beaten-path, hike-in-only campground."
+        description: "For Friends and relatives coming into town on Friday, we plan to host a welcome happy hour"
     },
     {
         id: 3,
-        name:"Redux Woods Campground",
-        image: "/assets/images/redux-woods.jpg",
-        elevation: 42,
-        featured: true,
-        description: "You'll never want to leave this hidden gem, deep within the lush Redux Woods."
+        name:"Rehersal Brunch",
+        image: "rehersal.jpg",
+        elevation: "tbd",
+        featured: false,
+        description: "In place of a rehersal dinner, we plan to host a rehersal brunch on Saturday, at magnolia's in Purcelville, VA"
     }
 ];
