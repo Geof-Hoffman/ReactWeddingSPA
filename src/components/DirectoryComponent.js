@@ -44,13 +44,14 @@ class Directory extends Component {
 
         return (
             <div className="container">
+              
                 <div className="row">
-                    {directory}
-                </div>
-                <div className="row">
-                    <div className="col-md-5 m-1">
+                    <div className="col-sm m-1">
                         {this.renderSelectedCampsite(this.state.selectedCampsite)}
                     </div>
+                </div>
+                <div className="row">
+                    {directory}
                 </div>
             </div>
         );
