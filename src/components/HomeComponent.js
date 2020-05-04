@@ -1,32 +1,18 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg } from 'reactstrap';
+// import CarouselComponent from './CarouselComponent';
 
-
-function RenderCard({item}) {
-    return (
-        <Card>
-            <CardImg src={item.image} alt={item.name} />
-            <CardBody>
-                <CardTitle>{item.name}</CardTitle>
-                <CardText>{item.description}</CardText>
-            </CardBody>
-        </Card>
-    );
-}
 
 function Home(props) {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md m-1">
-                    <RenderCard item={props.campsite} />
-                </div>
-                <div className="col-md m-1">
-                    <RenderCard item={props.promotion} />
-                </div>
-                <div className="col-md m-1">
-                    <RenderCard item={props.partner} />
-                </div>
+              <div className="col-md m-1">
+                <Card>
+                   <CardImg top width="100%" src="/assets/images/engagement.png" alt="Card image cap" />
+                </Card>
+             </div>
+
             </div>
         </div>
     );

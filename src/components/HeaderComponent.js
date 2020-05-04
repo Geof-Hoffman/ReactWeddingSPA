@@ -30,14 +30,14 @@ class Header extends Component {
                         </div>    
                             <div className="col">
                                 <h1>Forever: Jess&Geoff</h1>
-                               <h2> <a href="https://www.briarpatchbandb.com/">Wedding to be held at Briar Patch B&B, in Middleburg, VA on October 18, 2020</a></h2>                               
+                               <h2> <a href="https://www.briarpatchbandb.com/" target="_blank" rel='noreferrer noopener'>Wedding to be held at Briar Patch B&B, in Middleburg, VA on October 18, 2020</a></h2>                               
                             </div>
                         </div>
                     </div>
                 </Jumbotron>
                 <Navbar dark sticky="top" expand="md">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="8J&GLogo" /></NavbarBrand>
+                        <NavbarBrand className="ml-0"  href="/"><img src="/assets/images/logo.png" height="30" width="30" alt="8J&GLogo" /></NavbarBrand>
                                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
@@ -52,8 +52,13 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/aboutus">
-                                        <i className="fa fa-info fa-lg" /> About
+                                    <NavLink className="nav-link" to="/accomadations">
+                                    <i class="fa fa-bed" />  Accommodations
+                                    </NavLink>
+                                </NavItem>
+                                <NavItem>
+                                    <NavLink className="nav-link" to="/registry">
+                                    <i class="fa fa-gift"/>  Registry
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>

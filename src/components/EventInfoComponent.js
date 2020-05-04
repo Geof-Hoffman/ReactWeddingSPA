@@ -1,5 +1,7 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -25,8 +27,17 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
             return (
                 <div className="container">
                     <div className="row">
+                        <div className="col">
+                            <Breadcrumb>
+                                <BreadcrumbItem><Link to="/directory">Events</Link></BreadcrumbItem>
+                                <BreadcrumbItem active>{props.campsite.name}</BreadcrumbItem>
+                            </Breadcrumb>
+                            <h2>{props.campsite.name}</h2>
+                            <hr />
+                        </div>
+                    </div>
+                    <div className="row">
                         <RenderCampsite campsite={props.campsite} />
-                    
                     </div>
                 </div>
             );
