@@ -27,7 +27,7 @@ function Contact(props) {
                 </div>
                 <div className="col">
                     <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone"></i> 1-703-725-8936 (Geoff)</a><br />
-                    <a role="button" className="btn btn-link" href="mailto:jessandGeoff2017@gmail.com"><i className="fa fa-envelope-o"></i> jessandGeoff2017@gmail.com</a>
+                    <a role="button" className="btn btn-link" href="mailto:jessandGeoff2017@gmail.com"><i className="fa fa-envelope-o"></i> jessandgeoff2017@gmail.com</a>
                 </div>
             </div>
         </div>

@@ -52,7 +52,7 @@ class Header extends Component {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/accomadations">
+                                    <NavLink className="nav-link" to="/accommadations">
                                     <i class="fa fa-bed" />  Accommodations
                                     </NavLink>
                                 </NavItem>

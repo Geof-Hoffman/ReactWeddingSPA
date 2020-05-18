@@ -2,13 +2,14 @@ import React from 'react';
 import { Card, CardImg, CardImgOverlay, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-function RenderDirectoryItem({campsite}) {
+function RenderDirectoryItem({event}) {
     return (
         <Card>
-            <Link to={`/directory/${campsite.id}`}>
-                <CardImg width="100%" src={campsite.image} alt={campsite.name} />
+            <Link to={`/directory/${event.id}`}>
+                <CardImg width="100%" src={event.image} alt={event.name} />
                 <CardImgOverlay>
-                    <CardTitle>{campsite.name}</CardTitle>
+                <CardTitle style={{ align:'center',  padding: 0, margin: 0, fontWeight:'bold', backgroundColor: 'rgba(255,255,255,0.5)'}}>{event.date} </CardTitle>
+                    <CardTitle style={{ fontWeight:'bold', backgroundColor: 'rgba(255,255,255,0.5)'}}>{event.name}</CardTitle>
                 </CardImgOverlay>
             </Link>
         </Card>
@@ -17,10 +18,10 @@ function RenderDirectoryItem({campsite}) {
 
 function Directory(props) {
 
-    const directory = props.campsites.map(campsite => {
+    const directory = props.events.map(event => {
         return (
-            <div key={campsite.id} className="col-md-5 m-1">
-                 <RenderDirectoryItem campsite={campsite} />
+            <div key={event.id} className="col-md-5 m-1">
+                 <RenderDirectoryItem event={event} />
             </div>
         );
     });
